@@ -52,12 +52,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\Editor\v3rdPersonCameraEditor.cs" />
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\Editor\vCharacterEditor.cs" />
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\Editor\vThirdPersonInputEditor.cs" />
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs" />
-    <Compile Include="Assets\Imported\Temp\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\Editor\vEditorHelper.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\Editor\v3rdPersonCameraEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\Editor\vCharacterEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\Editor\vThirdPersonInputEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterCreator\Script\Editor\vCreateBasicCharacterEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterCreator\Script\Editor\vHelperEditor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\Editor\vEditorHelper.cs" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>

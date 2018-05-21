@@ -52,11 +52,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Camera\vThirdPersonCamera.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonAnimator.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonController.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonInput.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\CharacterController\vThirdPersonMotor.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vComment.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vDestroyGameObject.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vExtensions.cs" />
+    <Compile Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\Scripts\Generic\vPickupItem.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\HuntAndKillMazeAlgorithm.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\MazeAlgorithm.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\MazeCell.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\MazeLoader.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\ProceduralNumberGenerator.cs" />
+    <None Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\README_Basic.txt" />
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
     </Reference>
