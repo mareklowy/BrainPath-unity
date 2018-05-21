@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\marek\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BrainPath.591513895.00" t="ExcludeRecursive" />
+    <e p="E:\src\SEP4\BrainPath" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Invector-3rdPersonController" t="Include">
+          <e p="Basic Locomotion LITE" t="Include">
+            <e p="README_Basic.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Camera" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="v3rdPersonCameraEditor.cs" t="Include" />
+                </e>
+                <e p="vThirdPersonCamera.cs" t="Include" />
+              </e>
+              <e p="CharacterController" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vCharacterEditor.cs" t="Include" />
+                  <e p="vThirdPersonInputEditor.cs" t="Include" />
+                </e>
+                <e p="vThirdPersonAnimator.cs" t="Include" />
+                <e p="vThirdPersonController.cs" t="Include" />
+                <e p="vThirdPersonInput.cs" t="Include" />
+                <e p="vThirdPersonMotor.cs" t="Include" />
+              </e>
+              <e p="CharacterCreator" t="Include">
+                <e p="Script" t="Include">
+                  <e p="Editor" t="Include">
+                    <e p="vCreateBasicCharacterEditor.cs" t="Include" />
+                    <e p="vHelperEditor.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Generic" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="vEditorHelper.cs" t="Include" />
+                </e>
+                <e p="vComment.cs" t="Include" />
+                <e p="vDestroyGameObject.cs" t="Include" />
+                <e p="vExtensions.cs" t="Include" />
+                <e p="vPickupItem.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="MazeGenerator" t="Include">
+            <e p="HuntAndKillMazeAlgorithm.cs" t="Include" />
+            <e p="MazeAlgorithm.cs" t="Include" />
+            <e p="MazeCell.cs" t="Include" />
+            <e p="MazeLoader.cs" t="Include" />
+            <e p="ProceduralNumberGenerator.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="BrainPath.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
