@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 00000000000000000000000000000000
+  productGUID: 9c15a7e4b943adb4b9aa2670fd418893
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -638,7 +638,7 @@ PlayerSettings:
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
   cloudProjectId: 22028fcb-e19d-461c-af91-a88a4f81fd6a
-  projectName: 
+  projectName: BrainPath
   organizationId: mareklowy
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
