@@ -4,4 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Level01.unity
+    guid: cc3411173d982eb43947b8b127675d51
+  - enabled: 1
+    path: Assets/Scenes/pexeso.unity
+    guid: 2ebd62ff1e59de940a621dba6554ba47

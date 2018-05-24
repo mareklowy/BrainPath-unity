@@ -55,6 +55,8 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="ExitController.cs" t="Include" />
+          <e p="MainCard.cs" t="Include" />
           <e p="MazeGenerator" t="Include">
             <e p="HuntAndKillMazeAlgorithm.cs" t="Include" />
             <e p="MazeAlgorithm.cs" t="Include" />
@@ -62,6 +64,9 @@
             <e p="MazeLoader.cs" t="Include" />
             <e p="ProceduralNumberGenerator.cs" t="Include" />
           </e>
+          <e p="SceneController.cs" t="Include" />
+          <e p="UIButton.cs" t="Include" />
+          <e p="winController.cs" t="Include" />
         </e>
       </e>
       <e p="BrainPath.sln" t="IncludeFlat" />
