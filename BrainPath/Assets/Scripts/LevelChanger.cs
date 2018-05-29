@@ -34,6 +34,10 @@ public class LevelChanger : MonoBehaviour {
                 FadeToLevel(4);
                 break;
             }
+            case "Screaming Lady": {
+                FadeToLevel(5);
+                break;
+            }
             default:
                 Debug.Log("Error");
                 break;

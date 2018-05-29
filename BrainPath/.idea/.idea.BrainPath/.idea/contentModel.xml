@@ -64,6 +64,9 @@
           <e p="UIButton.cs" t="Include" />
         </e>
         <e p="PlayerPosManager.cs" t="Include" />
+        <e p="RoomGame" t="Include">
+          <e p="GameController.cs" t="Include" />
+        </e>
         <e p="SailorPuzzle" t="Include">
           <e p="SailorPuzzleController.cs" t="Include" />
         </e>
