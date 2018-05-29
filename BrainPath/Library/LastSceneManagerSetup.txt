@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/SandboxKajul.unity
+=======
+- path: Assets/Scenes/Menu.unity
+>>>>>>> d935422d8cdd146d2b55f489c6bcbbecd687e8bb
   isLoaded: 1
   isActive: 1

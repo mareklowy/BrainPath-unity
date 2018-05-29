@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\Pexeso\SceneController.cs" />
     <Compile Include="Assets\Scripts\Pexeso\UIButton.cs" />
     <Compile Include="Assets\Scripts\PlayerPosManager.cs" />
+    <Compile Include="Assets\Scripts\RoomGame\GameController.cs" />
     <Compile Include="Assets\Scripts\SailorPuzzle\SailorPuzzleController.cs" />
     <Compile Include="Assets\Scripts\Simon\Button\Button.cs" />
     <Compile Include="Assets\Scripts\Simon\GameManager.cs" />

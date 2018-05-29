@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class GameController : MonoBehaviour {
@@ -69,6 +70,9 @@ public class GameController : MonoBehaviour {
     public void EightItem()
     {
         _hidden8.SetActive(false);
+        GameObject go = GameObject.FindGameObjectWithTag("FireScore");
+        go.GetComponent<FireScore>().addFire();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-4);
     }
 
     IEnumerator WaitForSecondItem()
