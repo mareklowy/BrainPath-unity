@@ -30,6 +30,10 @@ public class LevelChanger : MonoBehaviour {
                 FadeToLevel(3);
                 break;
             }
+            case "Greek Man": {
+                FadeToLevel(4);
+                break;
+            }
             default:
                 Debug.Log("Error");
                 break;

@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Simon.unity
     guid: 6368aae4b2fecdd44a0239ea9957084b
+  - enabled: 1
+    path: Assets/Scenes/SeaPuzzle.unity
+    guid: 096d1370cf43fe049b2417cc2b158cde
