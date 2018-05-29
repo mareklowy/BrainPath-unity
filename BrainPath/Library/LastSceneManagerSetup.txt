@@ -1,8 +1,4 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/pexeso.unity
-=======
-- path: Assets/Scenes/Menu.unity
->>>>>>> ffcbf53eafc364644eceb1d2c54e55b73937be63
+- path: Assets/Scenes/SeaPuzzle.unity
   isLoaded: 1
   isActive: 1
