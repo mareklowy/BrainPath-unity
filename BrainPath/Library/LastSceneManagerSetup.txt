@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SeaPuzzle.unity
+- path: Assets/Scenes/SandboxKajul.unity
   isLoaded: 1
   isActive: 1
