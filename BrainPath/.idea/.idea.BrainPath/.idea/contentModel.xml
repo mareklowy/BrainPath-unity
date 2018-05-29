@@ -1,72 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\marek\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_BrainPath.591513895.00" t="ExcludeRecursive" />
+    <e p="C:\Users\marek\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_BrainPath.591513895.00" t="ExcludeRecursive" />
     <e p="E:\src\SEP4\BrainPath" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets" t="Include">
-        <e p="Invector-3rdPersonController" t="Include">
-          <e p="Basic Locomotion LITE" t="Include">
-            <e p="README_Basic.txt" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="Camera" t="Include">
+      <e p="Assets\Invector-3rdPersonController" t="Include">
+        <e p="Basic Locomotion LITE" t="Include">
+          <e p="README_Basic.txt" t="Include" />
+          <e p="Scripts" t="Include">
+            <e p="Camera" t="Include">
+              <e p="Editor" t="Include">
+                <e p="v3rdPersonCameraEditor.cs" t="Include" />
+              </e>
+              <e p="vThirdPersonCamera.cs" t="Include" />
+            </e>
+            <e p="CharacterController" t="Include">
+              <e p="Editor" t="Include">
+                <e p="vCharacterEditor.cs" t="Include" />
+                <e p="vThirdPersonInputEditor.cs" t="Include" />
+              </e>
+              <e p="vThirdPersonAnimator.cs" t="Include" />
+              <e p="vThirdPersonController.cs" t="Include" />
+              <e p="vThirdPersonInput.cs" t="Include" />
+              <e p="vThirdPersonMotor.cs" t="Include" />
+            </e>
+            <e p="CharacterCreator" t="Include">
+              <e p="Script" t="Include">
                 <e p="Editor" t="Include">
-                  <e p="v3rdPersonCameraEditor.cs" t="Include" />
-                </e>
-                <e p="vThirdPersonCamera.cs" t="Include" />
-              </e>
-              <e p="CharacterController" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="vCharacterEditor.cs" t="Include" />
-                  <e p="vThirdPersonInputEditor.cs" t="Include" />
-                </e>
-                <e p="vThirdPersonAnimator.cs" t="Include" />
-                <e p="vThirdPersonController.cs" t="Include" />
-                <e p="vThirdPersonInput.cs" t="Include" />
-                <e p="vThirdPersonMotor.cs" t="Include" />
-              </e>
-              <e p="CharacterCreator" t="Include">
-                <e p="Script" t="Include">
-                  <e p="Editor" t="Include">
-                    <e p="vCreateBasicCharacterEditor.cs" t="Include" />
-                    <e p="vHelperEditor.cs" t="Include" />
-                  </e>
+                  <e p="vCreateBasicCharacterEditor.cs" t="Include" />
+                  <e p="vHelperEditor.cs" t="Include" />
                 </e>
               </e>
-              <e p="Generic" t="Include">
-                <e p="Editor" t="Include">
-                  <e p="vEditorHelper.cs" t="Include" />
-                </e>
-                <e p="vComment.cs" t="Include" />
-                <e p="vDestroyGameObject.cs" t="Include" />
-                <e p="vExtensions.cs" t="Include" />
-                <e p="vPickupItem.cs" t="Include" />
+            </e>
+            <e p="Generic" t="Include">
+              <e p="Editor" t="Include">
+                <e p="vEditorHelper.cs" t="Include" />
               </e>
+              <e p="vComment.cs" t="Include" />
+              <e p="vDestroyGameObject.cs" t="Include" />
+              <e p="vExtensions.cs" t="Include" />
+              <e p="vPickupItem.cs" t="Include" />
             </e>
           </e>
         </e>
-        <e p="Plugins" t="Include">
-          <e p="Editor" t="Include">
-            <e p="JetBrains" t="Include">
-              <e p="Unity3DRider.cs" t="Include" />
-            </e>
-          </e>
+      </e>
+      <e p="Assets\Scripts" t="Include">
+        <e p="FireScore.cs" t="Include" />
+        <e p="LevelChanger.cs" t="Include" />
+        <e p="LevelExitController.cs" t="Include" />
+        <e p="MazeGenerator" t="Include">
+          <e p="HuntAndKillMazeAlgorithm.cs" t="Include" />
+          <e p="MazeAlgorithm.cs" t="Include" />
+          <e p="MazeCell.cs" t="Include" />
+          <e p="MazeLoader.cs" t="Include" />
+          <e p="ProceduralNumberGenerator.cs" t="Include" />
         </e>
-        <e p="Scripts" t="Include">
-          <e p="ExitController.cs" t="Include" />
+        <e p="MenuController.cs" t="Include" />
+        <e p="Pexeso" t="Include">
           <e p="MainCard.cs" t="Include" />
-          <e p="MazeGenerator" t="Include">
-            <e p="HuntAndKillMazeAlgorithm.cs" t="Include" />
-            <e p="MazeAlgorithm.cs" t="Include" />
-            <e p="MazeCell.cs" t="Include" />
-            <e p="MazeLoader.cs" t="Include" />
-            <e p="ProceduralNumberGenerator.cs" t="Include" />
-          </e>
+          <e p="PexesoWinCotroller.cs" t="Include" />
           <e p="SceneController.cs" t="Include" />
           <e p="UIButton.cs" t="Include" />
-          <e p="winController.cs" t="Include" />
+        </e>
+        <e p="PlayerPosManager.cs" t="Include" />
+        <e p="SailorPuzzle" t="Include">
+          <e p="SailorPuzzleController.cs" t="Include" />
+        </e>
+        <e p="Simon" t="Include">
+          <e p="Button" t="Include">
+            <e p="Button.cs" t="Include" />
+          </e>
+          <e p="GameManager.cs" t="Include" />
+          <e p="Score.cs" t="Include" />
+          <e p="SimonWinCotroller.cs" t="Include" />
+          <e p="StartPanel.cs" t="Include" />
+        </e>
+        <e p="StatueInteractionController.cs" t="Include" />
+      </e>
+      <e p="Assets\TextMesh Pro" t="Include">
+        <e p="Examples &amp; Extras" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="Anton OFL.txt" t="Include" />
+            <e p="Bangers - OFL.txt" t="Include" />
+            <e p="LiberationSans - OFL.txt" t="Include" />
+            <e p="NotoSans - License.txt" t="Include" />
+            <e p="Oswald Bold - OFL.txt" t="Include" />
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="Benchmark01.cs" t="Include" />
+            <e p="Benchmark01_UGUI.cs" t="Include" />
+            <e p="Benchmark02.cs" t="Include" />
+            <e p="Benchmark03.cs" t="Include" />
+            <e p="Benchmark04.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="ChatController.cs" t="Include" />
+            <e p="EnvMapAnimator.cs" t="Include" />
+            <e p="ObjectSpin.cs" t="Include" />
+            <e p="ShaderPropAnimator.cs" t="Include" />
+            <e p="SimpleScript.cs" t="Include" />
+            <e p="SkewTextExample.cs" t="Include" />
+            <e p="TeleType.cs" t="Include" />
+            <e p="TextConsoleSimulator.cs" t="Include" />
+            <e p="TextMeshProFloatingText.cs" t="Include" />
+            <e p="TextMeshSpawner.cs" t="Include" />
+            <e p="TMP_DigitValidator.cs" t="Include" />
+            <e p="TMP_ExampleScript_01.cs" t="Include" />
+            <e p="TMP_FrameRateCounter.cs" t="Include" />
+            <e p="TMP_PhoneNumberValidator.cs" t="Include" />
+            <e p="TMP_TextEventCheck.cs" t="Include" />
+            <e p="TMP_TextEventHandler.cs" t="Include" />
+            <e p="TMP_TextInfoDebugTool.cs" t="Include" />
+            <e p="TMP_TextSelector_A.cs" t="Include" />
+            <e p="TMP_TextSelector_B.cs" t="Include" />
+            <e p="TMP_UiFrameRateCounter.cs" t="Include" />
+            <e p="TMPro_InstructionOverlay.cs" t="Include" />
+            <e p="VertexColorCycler.cs" t="Include" />
+            <e p="VertexJitter.cs" t="Include" />
+            <e p="VertexShakeA.cs" t="Include" />
+            <e p="VertexShakeB.cs" t="Include" />
+            <e p="VertexZoom.cs" t="Include" />
+            <e p="WarpTextExample.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="LineBreaking Following Characters.txt" t="Include" />
+          <e p="LineBreaking Leading Characters.txt" t="Include" />
+          <e p="Shaders" t="Include">
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
         </e>
       </e>
       <e p="BrainPath.sln" t="IncludeFlat" />
