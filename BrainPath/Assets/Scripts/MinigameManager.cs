@@ -24,7 +24,7 @@ public class MinigameManager : MonoBehaviour {
 		FireScore fs = go.GetComponent<FireScore>();
 
 		_angel = GameObject.Find("Angel");
-		_lady = GameObject.Find("Screeming Lady");
+		_lady = GameObject.Find("Screaming Lady");
 		_lion = GameObject.Find("Lion");
 		_greek = GameObject.Find("Greek Man");
 		_dragon = GameObject.Find("Dragon");
