@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ExitController : MonoBehaviour {
+public class LevelExitController : MonoBehaviour {
    
     private void OnTriggerEnter(Collider other) {
         if (other.gameObject.CompareTag("Player")) {
             print("Here");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
+           // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
         }
     }
 }

@@ -38,6 +38,10 @@ public class LevelChanger : MonoBehaviour {
                 FadeToLevel(5);
                 break;
             }
+            case "Dragon": {
+                FadeToLevel(6);
+                break;
+            }
             default:
                 Debug.Log("Error");
                 break;

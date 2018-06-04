@@ -11,15 +11,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level01.unity
     guid: cc3411173d982eb43947b8b127675d51
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/pexeso.unity
     guid: 2ebd62ff1e59de940a621dba6554ba47
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Simon.unity
     guid: 6368aae4b2fecdd44a0239ea9957084b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/SeaPuzzle.unity
     guid: 096d1370cf43fe049b2417cc2b158cde
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/RoomGame.unity
     guid: 8e853858e42f63c48b60af515dcb1cf3
+  - enabled: 1
+    path: Assets/Scenes/quiz.unity
+    guid: 69e33856a67b9d0429f05f0ce195de60

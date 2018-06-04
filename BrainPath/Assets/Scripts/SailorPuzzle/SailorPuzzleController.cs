@@ -51,7 +51,7 @@ public class SailorPuzzleController : MonoBehaviour {
     public void GameWin() {
         _btn3.SetActive(false);
         GameObject go = GameObject.FindGameObjectWithTag("FireScore");
-        go.GetComponent<FireScore>().addFire();
+        go.GetComponent<FireScore>().addFire("Greek Man");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-3);
     }
 }

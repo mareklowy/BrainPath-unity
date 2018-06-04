@@ -7,7 +7,7 @@ public class SimonWinCotroller : MonoBehaviour {
 
 	public static void Win() {
 		GameObject go = GameObject.FindGameObjectWithTag("FireScore");
-		go.GetComponent<FireScore>().addFire();
+		go.GetComponent<FireScore>().addFire("Lion");
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-2);
 	}
 }

@@ -57,6 +57,7 @@
           <e p="ProceduralNumberGenerator.cs" t="Include" />
         </e>
         <e p="MenuController.cs" t="Include" />
+        <e p="MinigameManager.cs" t="Include" />
         <e p="Pexeso" t="Include">
           <e p="MainCard.cs" t="Include" />
           <e p="PexesoWinCotroller.cs" t="Include" />
@@ -64,6 +65,9 @@
           <e p="UIButton.cs" t="Include" />
         </e>
         <e p="PlayerPosManager.cs" t="Include" />
+        <e p="Quiz" t="Include">
+          <e p="QuizController.cs" t="Include" />
+        </e>
         <e p="RoomGame" t="Include">
           <e p="GameController.cs" t="Include" />
         </e>
@@ -80,6 +84,7 @@
           <e p="StartPanel.cs" t="Include" />
         </e>
         <e p="StatueInteractionController.cs" t="Include" />
+        <e p="TempleFireCOntroller.cs" t="Include" />
       </e>
       <e p="Assets\TextMesh Pro" t="Include">
         <e p="Examples &amp; Extras" t="Include">

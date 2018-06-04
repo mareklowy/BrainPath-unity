@@ -71,7 +71,7 @@ public class GameController : MonoBehaviour {
     {
         _hidden8.SetActive(false);
         GameObject go = GameObject.FindGameObjectWithTag("FireScore");
-        go.GetComponent<FireScore>().addFire();
+        go.GetComponent<FireScore>().addFire("Screaming Lady");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex-4);
     }
 

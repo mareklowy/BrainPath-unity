@@ -161,7 +161,7 @@ public class QuizController : MonoBehaviour {
     {
         _finish.SetActive(false);
         GameObject go = GameObject.FindGameObjectWithTag("FireScore");
-        go.GetComponent<FireScore>().addFire();
+        go.GetComponent<FireScore>().addFire("Dragon");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
     }
 

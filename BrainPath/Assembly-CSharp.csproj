@@ -71,11 +71,13 @@
     <Compile Include="Assets\Scripts\MazeGenerator\MazeLoader.cs" />
     <Compile Include="Assets\Scripts\MazeGenerator\ProceduralNumberGenerator.cs" />
     <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\MinigameManager.cs" />
     <Compile Include="Assets\Scripts\Pexeso\MainCard.cs" />
     <Compile Include="Assets\Scripts\Pexeso\PexesoWinCotroller.cs" />
     <Compile Include="Assets\Scripts\Pexeso\SceneController.cs" />
     <Compile Include="Assets\Scripts\Pexeso\UIButton.cs" />
     <Compile Include="Assets\Scripts\PlayerPosManager.cs" />
+    <Compile Include="Assets\Scripts\Quiz\QuizController.cs" />
     <Compile Include="Assets\Scripts\RoomGame\GameController.cs" />
     <Compile Include="Assets\Scripts\SailorPuzzle\SailorPuzzleController.cs" />
     <Compile Include="Assets\Scripts\Simon\Button\Button.cs" />
@@ -84,6 +86,7 @@
     <Compile Include="Assets\Scripts\Simon\SimonWinCotroller.cs" />
     <Compile Include="Assets\Scripts\Simon\StartPanel.cs" />
     <Compile Include="Assets\Scripts\StatueInteractionController.cs" />
+    <Compile Include="Assets\Scripts\TempleFireCOntroller.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -233,6 +236,12 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/marek/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>C:/Users/marek/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>C:/Users/marek/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/UnityStore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
