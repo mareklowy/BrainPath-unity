@@ -253,6 +253,9 @@
     <Reference Include="UnityEditor.Graphs">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
@@ -288,6 +291,12 @@
     </Reference>
     <Reference Include="UnityEngine.StandardEvents">
       <HintPath>C:/Users/Karolina/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>C:/Users/Karolina/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>C:/Users/Karolina/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.xiaomi@1.0.0/UnityChannel/UnityStore.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -355,6 +364,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
+    <Compile Include="Packages\com.unity.xiaomi\UnityChannel\XiaomiSupport\AppStoreSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Invector-3rdPersonController\Basic Locomotion LITE\README_Basic.txt" />

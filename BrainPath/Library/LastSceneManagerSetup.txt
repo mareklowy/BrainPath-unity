@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Simon.unity
+- path: Assets/Scenes/SeaPuzzle.unity
   isLoaded: 1
   isActive: 1
