@@ -8,6 +8,8 @@ public class LevelExitController : MonoBehaviour {
         if (other.gameObject.CompareTag("Player")) {
             print("Here");
             if (SceneManager.GetActiveScene().buildIndex < SceneManager.sceneCountInBuildSettings - 5) {
+                GameObject go = GameObject.FindGameObjectWithTag("PosMan");
+                go.GetComponent<PlayerPosManager>().nullPosition();
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 6);
             }
             else {

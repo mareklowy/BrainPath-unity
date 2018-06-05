@@ -17,7 +17,7 @@ public class TempleFireCOntroller : MonoBehaviour {
 		GameObject go = GameObject.FindGameObjectWithTag("FireScore");
 		FireScore fs = go.GetComponent<FireScore>();
 
-		if (fs._fireScore >= 5) {
+		if (fs._fireScore >= 1) {
 			Transform[] trans = GameObject.Find("Temple").GetComponentsInChildren<Transform>(true);
 			foreach (Transform t in trans) {
 				if (t.gameObject.name == "Lights") {
