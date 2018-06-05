@@ -23,23 +23,23 @@ public class LevelChanger : MonoBehaviour {
     public void LoadMiniGame(String statueType) {
         switch (statueType) {
             case "Angel": {
-                FadeToLevel(2);
+                FadeToLevel(SceneManager.GetActiveScene().buildIndex + 1);
                 break;
             }
             case "Lion": {
-                FadeToLevel(3);
+                FadeToLevel(SceneManager.GetActiveScene().buildIndex + 2);
                 break;
             }
             case "Greek Man": {
-                FadeToLevel(4);
+                FadeToLevel(SceneManager.GetActiveScene().buildIndex + 3);
                 break;
             }
             case "Screaming Lady": {
-                FadeToLevel(5);
+                FadeToLevel(SceneManager.GetActiveScene().buildIndex + 4);
                 break;
             }
             case "Dragon": {
-                FadeToLevel(6);
+                FadeToLevel(SceneManager.GetActiveScene().buildIndex + 5);
                 break;
             }
             default:

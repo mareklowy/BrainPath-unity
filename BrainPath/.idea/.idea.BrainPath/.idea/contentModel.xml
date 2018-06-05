@@ -74,6 +74,7 @@
         <e p="SailorPuzzle" t="Include">
           <e p="SailorPuzzleController.cs" t="Include" />
         </e>
+        <e p="SelectLevelMenu.cs" t="Include" />
         <e p="Simon" t="Include">
           <e p="Button" t="Include">
             <e p="Button.cs" t="Include" />

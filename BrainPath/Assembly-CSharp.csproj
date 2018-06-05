@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\Quiz\QuizController.cs" />
     <Compile Include="Assets\Scripts\RoomGame\GameController.cs" />
     <Compile Include="Assets\Scripts\SailorPuzzle\SailorPuzzleController.cs" />
+    <Compile Include="Assets\Scripts\SelectLevelMenu.cs" />
     <Compile Include="Assets\Scripts\Simon\Button\Button.cs" />
     <Compile Include="Assets\Scripts\Simon\GameManager.cs" />
     <Compile Include="Assets\Scripts\Simon\Score.cs" />

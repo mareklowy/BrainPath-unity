@@ -12,7 +12,13 @@ public class MenuController : MonoBehaviour {
     public void NewGame() {
         DontDestroyOnLoad(_posMan);
         DontDestroyOnLoad(_scoreMan);
-       _lv.FadeToLevel(1);
+       _lv.FadeToLevel(2);
+    }
+    
+    public void SelectLevel() {
+        DontDestroyOnLoad(_posMan);
+        DontDestroyOnLoad(_scoreMan);
+        _lv.FadeToLevel(1);
     }
 
     public void ExitGame() {
