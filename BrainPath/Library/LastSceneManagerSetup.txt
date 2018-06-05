@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Level01/quiz.unity
+- path: Assets/Scenes/Level02/RoomGame2.unity
   isLoaded: 1
   isActive: 1
