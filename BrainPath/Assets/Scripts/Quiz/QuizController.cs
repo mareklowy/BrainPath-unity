@@ -19,6 +19,7 @@ public class QuizController : MonoBehaviour {
     [SerializeField] private GameObject _hidden3;
     [SerializeField] private GameObject _hidden4;
     [SerializeField] private GameObject _hidden5;
+    [SerializeField] private GameObject _another;
 
 
     public void PlayGame()
@@ -28,34 +29,31 @@ public class QuizController : MonoBehaviour {
         _hidden.SetActive(true);
     }
 
-    public void artQuestion()
+    public void TrickyQuestion1()
     {
         _hidden.SetActive(false);
-        StartCoroutine(WaitForGeography());
-
+        StartCoroutine(WaitForTricky1());
     }
 
-    public void geographyQuestion()
+    public void TrickyQuestion2()
     {
         _hidden2.SetActive(false);
-        StartCoroutine(WaitForHistory());
+        StartCoroutine(WaitForTricky2());
     }
 
-    public void historyQuestion()
+    public void TrickyQuestion3()
     {
         _hidden3.SetActive(false);
-        StartCoroutine(WaitForInformatics());
+        StartCoroutine(WaitForTricky3());
     }
 
-    public void informaticQuestion()
+    public void TrickyQuestion4()
     {
         _hidden4.SetActive(false);
-        StartCoroutine(WaitForSport());
-
-
+        StartCoroutine(WaitForTricky4());
     }
 
-    public void sportQuestion()
+    public void TrickyQuestion5()
     {
         _hidden5.SetActive(false);
         StartCoroutine(WaitForFinish());
@@ -92,25 +90,27 @@ public class QuizController : MonoBehaviour {
         StartCoroutine(WaitForIt5());
     }
 
-    IEnumerator WaitForGeography()
+    IEnumerator WaitForTricky1()
     {
         yield return new WaitForSeconds(2);
         _hidden2.SetActive(true);
     }
 
-    IEnumerator WaitForHistory()
+    IEnumerator WaitForTricky2()
     {
-        yield return new WaitForSeconds(2);
+        _another.SetActive(true);
+        yield return new WaitForSeconds(4);
+        _another.SetActive(false);
         _hidden3.SetActive(true);
     }
 
-    IEnumerator WaitForInformatics()
+    IEnumerator WaitForTricky3()
     {
         yield return new WaitForSeconds(2);
         _hidden4.SetActive(true);
     }
 
-    IEnumerator WaitForSport()
+    IEnumerator WaitForTricky4()
     {
         yield return new WaitForSeconds(2);
         _hidden5.SetActive(true);
