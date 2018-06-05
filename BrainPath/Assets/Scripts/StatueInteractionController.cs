@@ -10,7 +10,6 @@ public class StatueInteractionController : MonoBehaviour {
     
     private bool _interact;
 
-    // Update is called once per frame
     void Update() {
         if (Input.GetKeyDown(KeyCode.F))
             Interact();
