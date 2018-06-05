@@ -434,11 +434,11 @@ MonoBehaviour:
   m_text: '"We have her now.
 
 
-    The fog lifted shortly before noon, and there she was 5 miles to the South.
+    The fog lifted shortly before noon, and there she was 2 miles to the North.
 
-    Rapidly, we closed her down and she fled East 1 miles back towards the Cape.
+    Rapidly, we closed her down and she fled East 4 miles back towards the Cape.
 
-    Now she lies North of us by just 1 mile.
+    Now she lies North of us by just 2 mile.
 
 
     She won''t reach the Cape again."'
@@ -882,7 +882,7 @@ GameObject:
   - component: {fileID: 193044786}
   - component: {fileID: 193044785}
   m_Layer: 0
-  m_Name: Button (54)
+  m_Name: Btn2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -944,7 +944,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 193044786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1641542247}
+        m_MethodName: ThirdStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &193044786
@@ -3298,7 +3309,7 @@ GameObject:
   - component: {fileID: 506040725}
   - component: {fileID: 506040724}
   m_Layer: 0
-  m_Name: Button (26)
+  m_Name: Btn 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3360,7 +3371,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 506040725}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1641542247}
+        m_MethodName: GameWin
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &506040725
@@ -4806,7 +4828,7 @@ GameObject:
   - component: {fileID: 725449176}
   - component: {fileID: 725449175}
   m_Layer: 0
-  m_Name: Btn3
+  m_Name: kasl
   m_TagString: Btn3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4868,18 +4890,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 725449176}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1641542247}
-        m_MethodName: GameWin
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &725449176
@@ -5381,7 +5392,7 @@ GameObject:
   - component: {fileID: 842705594}
   - component: {fileID: 842705593}
   m_Layer: 0
-  m_Name: Btn1
+  m_Name: button asd
   m_TagString: Btn1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5443,18 +5454,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 842705594}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1641542247}
-        m_MethodName: SecondStory
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &842705594
@@ -6444,7 +6444,7 @@ GameObject:
   - component: {fileID: 993986505}
   - component: {fileID: 993986504}
   m_Layer: 0
-  m_Name: Button (45)
+  m_Name: Btn1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6506,7 +6506,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 993986505}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1641542247}
+        m_MethodName: SecondStory
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &993986505
@@ -11744,7 +11755,7 @@ GameObject:
   - component: {fileID: 1765767923}
   - component: {fileID: 1765767922}
   m_Layer: 0
-  m_Name: Btn2
+  m_Name: adasd
   m_TagString: Btn2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11806,18 +11817,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1765767923}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1641542247}
-        m_MethodName: ThirdStory
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1765767923
@@ -12139,11 +12139,11 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_text: '"It didn''t take long for us to track her down. We raced North for 2 miles
+  m_text: '"It didn''t take long for us to track her down. We raced North for 1 miles
     on the deep sea currents to overhaul her headstart.
 
-    Approaching the mainland, we turned West for 2 miles to cut her off at the coast.
-    With no sign, we headed 3 miles back South to meet her.
+    Approaching the mainland, we turned West for 4 miles to cut her off at the coast.
+    With no sign, we headed 2 miles back South to meet her.
 
     We sighted her sure enough, but she cut through the Cape before we could intercept.
 
@@ -12674,7 +12674,7 @@ MonoBehaviour:
     Passage through the Cape took us 4 miles West, and we soon sighted her masts 2
     miles to the North of us.
 
-    Seeing us in pursuit, she cut West 2 miles into fog bank.
+    Seeing us in pursuit, she cut East 2 miles into fog bank.
 
     With her heavy ballast we would easily overhaul her, if only this accursed fog
     should lift. "'
