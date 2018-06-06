@@ -45,4 +45,8 @@ public class PlayerPosManager : MonoBehaviour {
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
         loadPostion();
     }
+
+    public void nullPosition() {
+        _playerPosition = new Vector3(0, 0, 0);
+    }
 }
